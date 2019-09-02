@@ -1,0 +1,12 @@
+E:\Senior3_2\短学期\REMEMBER\REMEMBER\bin\REMEMBER.dll.config
+E:\Senior3_2\短学期\REMEMBER\REMEMBER\bin\REMEMBER.dll
+E:\Senior3_2\短学期\REMEMBER\REMEMBER\bin\REMEMBER.pdb
+E:\Senior3_2\短学期\REMEMBER\REMEMBER\obj\Debug\REMEMBER.csprojResolveAssemblyReference.cache
+E:\Senior3_2\短学期\REMEMBER\REMEMBER\obj\Debug\REMEMBER.dll
+E:\Senior3_2\短学期\REMEMBER\REMEMBER\obj\Debug\REMEMBER.pdb
+F:\Senior3_2\短学期\REMEMBER\REMEMBER\bin\REMEMBER.dll.config
+F:\Senior3_2\短学期\REMEMBER\REMEMBER\bin\REMEMBER.dll
+F:\Senior3_2\短学期\REMEMBER\REMEMBER\bin\REMEMBER.pdb
+F:\Senior3_2\短学期\REMEMBER\REMEMBER\obj\Debug\REMEMBER.csprojResolveAssemblyReference.cache
+F:\Senior3_2\短学期\REMEMBER\REMEMBER\obj\Debug\REMEMBER.dll
+F:\Senior3_2\短学期\REMEMBER\REMEMBER\obj\Debug\REMEMBER.pdb

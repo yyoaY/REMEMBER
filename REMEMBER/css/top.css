@@ -1,0 +1,22 @@
+﻿#logo
+{
+    display: block;
+    float: left;
+    padding-top: 15px;
+    width: 200px;
+    text-align: center;
+    height: 36px;
+}
+#top-right
+{
+    display:block;
+    position:absolute;
+    top:0;
+    right:0;
+    height:52px;
+    width:150px;
+}
+#top-right img{
+    position:relative;
+    top:8px;
+}

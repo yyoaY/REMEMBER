@@ -1,0 +1,27 @@
+﻿.btn{
+    width:100px;
+    height:40px;
+    display:block;
+    float:left;
+    border:0;
+    background:#ffd800;
+}
+#div_btn{
+    height:40px;
+    margin:20px 0;
+}
+.btn:hover{
+    color:#0094ff;
+}
+/*“我的词库” 表头样式*/
+.gv_header{
+    background:#ffe181;
+    text-decoration:none;
+    text-align:left;
+}
+#txt_num{
+    color:#979797;
+    margin-bottom:10px;
+    font-size:14px;
+}
+

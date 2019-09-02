@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>ECharts.js 数据绑定</title>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="js/echarts.js"></script>
+</head>
+<body>
+    <div id="chartmain" style="width:600px; height: 400px;"></div>
+    <script type="text/javascript">
+        
+        //初始化echarts实例
+        var myChart = echarts.init(document.getElementById('chartmain'));
+        //设置图标配置项
+        myChart.setOption({
+            title: {
+                text: 'ECharts 异步加载数据'
+            },
+            tooltip: {},
+            legend: {
+                data: ['访问量']
+            },
+            xAxis: {
+                data: []
+            },
+            yAxis: {},
+            series: [
+				{
+				    name: '访问量',
+				    type: 'bar',
+				    data: []
+				}
+            ]
+        })
+        //打开loading动画
+        myChart.showLoading();
+        function bindData() {
+            //定时，读取数据
+            setTimeout(function () {
+                //获取数据后，隐藏loading动画
+                myChart.hideLoading();
+                //异步加载数据
+                $.get('data.json').done(function (data) {
+                    data = eval('(' + data + ')');
+                    myChart.setOption({
+                        xAxis: {
+                            data: data.name
+                        },
+                        series: [
+							{
+							    //根据名字对应到相应的系列
+							    name: "访问量",
+							    data: data.data
+							}
+                        ]
+                    })
+                })
+            }, 3000)
+        }
+
+        bindData()
+
+    </script>
+
+</body>
+</html>

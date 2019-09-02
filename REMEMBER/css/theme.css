@@ -1,0 +1,19 @@
+﻿body 
+{
+    margin:0;
+    padding:0;
+    min-width:700px;
+}
+#top
+{
+    background-color:#ff6a00;
+}
+#bottom
+{
+    background-color:Gray;
+}
+#middle
+{
+    margin:0 auto;
+    width:1000px;
+}

@@ -1,0 +1,21 @@
+﻿.block{
+      width: 200px;
+    display: inline-block;
+    height: 100px;
+    box-shadow: #ffee33 3px 3px 10px 0px;
+    text-align: center;    
+    color: wheat;
+    margin-top: 100px;
+}
+.b_lbl,.b_txt{
+    width:200px;
+}
+.b_lbl{
+      height: 70px;
+    font: 38px bold;
+    font-family: fantasy;
+}
+#div_block{    
+    margin: 20px auto;
+    width: 815px;
+}
